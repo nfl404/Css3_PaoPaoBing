@@ -1,0 +1,186 @@
+body {
+	/*background: #ffef5e;*/
+	background: #fff;
+}
+body div {
+	margin: 0;
+	padding: 0;
+}
+.main {
+	position: relative;
+	width: 700px;
+	margin: 50px auto;
+}
+.pp {
+	position: absolute;
+	top: 250px;
+	left: 150px;
+	z-index: 10;
+}
+/*头*/
+.pp .head{
+	width: 150px;
+	height: 100px;
+	border-radius: 50% 50% 0 0;
+	background: #28824c;
+	border: 2px solid #000000;
+	left: -12px;
+	top:-104px;
+	overflow: hidden;
+	position: absolute;
+	z-index: 10;
+}
+/*脸*/
+.pp .face{
+	width: 130px;
+	height: 70px;
+	border-radius: 0 0 50% 50%;
+	background: #f6cdb1;
+	position: absolute;
+	border-left: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+	border-right: 2px solid #000000;
+}
+/*眼睛*/
+.pp .face .eye {
+	width: 40%;
+	height: 25px;
+	background: #fff;
+	position: absolute;
+	border-radius: 12.5px;
+	top: -12.5px;
+	border: 1px groove #000000;
+	overflow: hidden;
+}
+.left-10 {
+	left: 10px;
+}
+.right-10 {
+	right: 10px;
+}
+.transform-3 {
+	transform: rotate(-3deg);
+}
+.transform-4 {
+	transform: rotate(-4deg);
+}
+/*眼珠子*/
+.pp .face .eye .bang {
+	background: #000;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 12px;
+	left: 20px;
+	border-radius: 50%;
+}
+/*嘴*/
+.pp .face .mouth {
+	width: 40%;
+	height: 30px;
+	background: #fff;
+	position: absolute;
+	bottom: 10%;
+	left: 30%;
+	z-index: 1;
+	border-radius: 40px 40px 120px 120px;
+	overflow: hidden;
+	border-left: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-right: 1px solid #000000;
+}
+.pp .face .mouth:after {
+	content: "";
+	width: 130px;
+	height:130px;
+	background: #f6cdb1;
+	position: absolute;
+	top: -120px;
+	left: -46px;
+	border-radius: 50%;
+	border: 1px solid #000000;
+}
+/*牙*/
+.pp .tooths {
+
+}
+
+/*上身*/
+.pp .clothes {
+	background: #f6cdb1;
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	top: 70px;
+	left: 28px;
+	z-index: 2;
+	border-radius: 30% 30% 10px 10px;
+	overflow: hidden;
+	border: 2px solid #000000;
+}
+/*胳膊*/
+.pp .arm {
+	width: 30px;
+	height: 70px;
+	background: #f6cdb1;
+	position: absolute;
+	top: 75px;
+	border-top: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+}
+.left-arm {
+	left: 8px;
+	border-left: 2px solid #000000;
+	border-radius: 40% 0 10% 50%;
+}
+.right-arm {
+	right: -132px;
+	border-right: 2px solid #000000;
+	border-radius: 0% 40% 50% 10%;
+}
+/*裤子*/
+.pp .pants {
+	background: #3dc07c;
+	width: 80px;
+	height: 30px;
+	position: absolute;
+	top: 150px;
+	left: 28px;
+	z-index: 2;
+	border-top: 2px solid #000000;
+	border-left: 2px solid #000000;
+	border-right: 2px solid #000000;
+	overflow: hidden;
+
+}
+
+.pp .pants:after {
+	content: '';
+	width: 20px;
+	height: 30px;
+	background: #3dc07c;
+	left: 25px;
+	position: absolute;
+	top: -18px;
+	border-width: 0px 5px 23px 5px;
+	border-style: none solid solid;
+	border-color: transparent transparent white;
+}
+/*腿*/
+.pp .leg {
+	width: 25px;
+	height: 25px;
+	background: #f6cdb1;
+	position: absolute;
+	top: 182px;
+	border-left: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+	border-right: 2px solid #000000;
+	border-radius: 0 0 30% 30%;
+}
+.left-leg {
+	left: 28px;
+}
+.right-leg {
+	left: 83px;
+}
