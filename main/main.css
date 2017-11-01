@@ -1,6 +1,5 @@
 body {
-	/*background: #ffef5e;*/
-	background: #fff;
+	background: #ffef5e;
 }
 body div {
 	margin: 0;
@@ -164,7 +163,7 @@ body div {
 	top: -18px;
 	border-width: 0px 5px 23px 5px;
 	border-style: none solid solid;
-	border-color: transparent transparent white;
+	border-color: transparent transparent #ffef5e;
 }
 /*腿*/
 .pp .leg {
